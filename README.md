@@ -27,11 +27,14 @@
     - `newList.extend([4,5,6])`
     - `newList.extend([12,13,14])`
     - How does `newList` differ from what you got when you used `append()`?
+    - **extend is to create a new list identity, while append is useful more for adding onto an existing one**
 - You can view or extract parts of a list by using indices and "slicing" the list (just remember that python starts counting at 0!)
     - `newList[4:7]` - What values are returned? How do these relate to the indices you provided?
 - You can also extract every n-th element of a list using notation like this:
     - `newList[::2]` - What values are returned now?
+            **lists every other value (every 2), starting at 0**
     - `newList[2:8:2]` - How about now?
+    -     **start:stop:interval, meaning it starts at the second, stops at the 8th, and alternates every 2**
 - You can also alter individual elements of lists by using indices
     - `newList`
     - `newList[2] = 100`
