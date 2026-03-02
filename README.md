@@ -32,6 +32,7 @@
 - You can also extract every n-th element of a list using notation like this:
     - `newList[::2]` - What values are returned now?
     - `newList[2:8:2]` - How about now?
+    -     start:stop:increment
 - You can also alter individual elements of lists by using indices
     - `newList`
     - `newList[2] = 100`
