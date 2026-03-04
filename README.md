@@ -132,7 +132,7 @@ while num < 10:
 
 - Note that `line` is just a variable name we've chosen to hold each line as we iterate through the file. You can use any variable name you choose, as with any other `for` loop.
 
-
+**open and close are kind of like a portal. When you read one line, it won't show up on the lis for the for loop.**
 ## Writing to Files
 
 - Writing to a file is very similar to reading from a file. First, you define an output file name
@@ -156,6 +156,7 @@ while num < 10:
     - `random.uniform(0,1)` - Do this a few times
     - `random.uniform(0,5)` - Do this a few times
     - `random.choice([5,6,7,8])` - Do this a few times
+    -     this is like a dice roll. Doesn't have to just be numbers, can be letters too
     - `firstList`
     - `random.shuffle(firstList)`
     - `firstList`
@@ -163,7 +164,7 @@ while num < 10:
     - `firstList`
     - `random.shuffle(firstList)`
     - `firstList`
-
+can do "from random import random" if you just want to pull only one command from the library. This allows you to get away without using random.random, typing it twice
 ## Command-line Arguments
   
 - As with bash scripts, Python scripts can also take advantage of command-line arguments.
